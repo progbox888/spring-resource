@@ -33,7 +33,7 @@
                         <image>
                             <name>${project.artifactId}</name>
                             <alias>${project.artifactId}</alias>
-                            <!--<registry>localhost:5000</registry>-->
+                            <registry>localhost:5000</registry>
                             <build>
                                 <from>openjdk:8-jre</from>
                                 <assembly>
